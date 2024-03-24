@@ -29,9 +29,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  width: 375px;
-  height: 1360px;
   color: #4d4f62;
+}
+@media screen and (min-width 768) {
+  body {
+    width: 1440px;
+    height: 922px;
+    margin: 20px;
+  }
 }
 .title {
   font-family: "Poppins", sans-serif;
@@ -80,6 +85,13 @@ p {
   box-shadow: 0 15px 30px -11px rgba(77, 79, 98, 50%);
 }
 
+@media screen and (min-width 768) {
+  .card {
+   width: 350px;
+   height: 250px;
+  }
+}
+
 .p-card {
   line-height: 23px;
   font-size: 13px;
@@ -89,6 +101,12 @@ p {
 
 .card-supervisor {
   border-top: 4px solid #44d3d2;
+}
+
+@media screen and (min-width 768) {
+  .card-supervisor {
+   position: relative;
+  }
 }
 
 .card-teambuilder {
