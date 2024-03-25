@@ -12,6 +12,16 @@ img {
   width: 57px;
 }
 
+@media screen and (min-width: 768px) {
+  img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 150px;
+    left: 255px;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -31,7 +41,7 @@ body {
   font-style: normal;
   color: #4d4f62;
 }
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 1440px;
     height: 922px;
@@ -46,7 +56,7 @@ body {
   margin: 15px;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .title {
     font-size: 36px;
     margin: 30px;
@@ -64,6 +74,8 @@ p {
   font-size: 15px;
   letter-spacing: 0,1px;
 }
+
+
 .light {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -87,7 +99,7 @@ p {
   box-shadow: 0 15px 30px -11px rgba(77, 79, 98, 50%);
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .card {
    width: 350px;
    height: 250px;
@@ -106,9 +118,11 @@ p {
   border-top: 4px solid #44d3d2;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .card-supervisor {
    position: absolute;
+   top: 350px;
+   left: 150px;
   }
 }
 
@@ -116,9 +130,10 @@ p {
   border-top: 4px solid #ea5454;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .card-teambuilder {
    position: absolute;
+   left:525px
   }
 }
 
@@ -126,9 +141,11 @@ p {
   border-top: 4px solid #fcae4a;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .card-karma {
    position: absolute;
+   top: 480px;
+   left: 525px;
   }
 }
 
@@ -136,8 +153,10 @@ p {
   border-top: 4px solid #549ef2;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .card-calculator {
    position: absolute;
+   top: 350px;
+   left: 900px;
   }
 }
